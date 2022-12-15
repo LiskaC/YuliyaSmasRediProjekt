@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: silver;
+}
+
+.cat-breeds-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.cat-breed {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	margin: 20px;
+}
+
+.cat-breed img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid #333;
+}
+
+.cat-breed-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.cat-breed-description {
+	font-size: 16px;
+	text-align: center;
+	margin: 10px 0;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
